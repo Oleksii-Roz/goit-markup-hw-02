@@ -13,13 +13,13 @@
 body {
 	font-family: "Roboto";
 	font-style: normal;
-	color: #212121;
 	--first-text-color: #212121;
 	--second-text-color: #757575;
 	--my-blue: #2196f3;
+	color: --first-text-color;
 }
 
-/* Header */
+/* Header index.html */
 .header-bg {
 	background: #ffffff;
 }
@@ -68,7 +68,97 @@ body {
 	color: var(--my-blue);
 }
 
-/* Footer  */
+/* Main index.html */
+.main-had-bg {
+	background-color: #2f303a;
+}
+
+.main-text {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.main-btn {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: #ffffff;
+	background: var(--my-blue);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+/* Наши основные особенности index.html */
+.main-basic {
+	opacity: 0;
+}
+
+.main-basic-first {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--first-text-color);
+}
+
+.main-basic-second {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: var(--second-text-color);
+}
+
+.main-doing {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--first-text-color);
+}
+
+.main-team-bg {
+	background: #f5f4fa;
+}
+
+.main-team {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--first-text-color);
+}
+
+.main-team-first {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--first-text-color);
+}
+
+.main-team-second {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--second-text-color);
+}
+
+/* Footer index.html  */
+
 /* .footer-address-link {
 	font-style: normal;
 } */
@@ -102,12 +192,6 @@ body {
 
 /* «C4» У интерактивных элементов (кнопок и ссылок), при наведении мышкой или фокусе с клавиатуры, есть активное состояние указанное в макете (изменение цвета). */
 
-/* «С5» Текст контактов в хедере и футере меняет цвет при ховере и фокусе. */
-/* .link:hover,
-.link:focus {
-	color: #2196f3;
-} */
-
 /* «C6» Для хранения палитры цветов макета (текст, фон, выделение) используются CSS-переменные. */
 /* :root {
 	--my-color: rgb(219, 152, 8);
@@ -115,6 +199,6 @@ body {
 } */
 
 /* «С16» Кнопкам задано свойство cursor со значением pointer. */
-/* a:hover {
+/* 
 	cursor: pointer;
 } */
