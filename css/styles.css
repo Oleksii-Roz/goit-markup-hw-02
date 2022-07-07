@@ -3,20 +3,29 @@
 	text-decoration: none;
 }
 
+/* :root {
+	--first-text-color: #2f303a;
+	--second-text-color: #757575;
+	--my-blue: #2196f3;
+} */
+
 body {
 	font-family: "Roboto";
 	font-style: normal;
 	color: #212121;
-	--first-text-color: #2f303a;
+	--first-text-color: #212121;
 	--second-text-color: #757575;
 	--my-blue: #2196f3;
 }
 
 .logo {
-	/* position: absolute; */
+	font-family: "Raleway";
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+	/* identical to box height */
+	letter-spacing: 0.03em;
 	color: var(--my-blue);
-	width: 145;
-	height: 31;
 }
 
 .logo-header {
@@ -26,6 +35,39 @@ body {
 .logo-footer {
 	color: #ffffff;
 }
+
+.header-nav-link {
+	color: var(--first-text-color);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+	color: var(--my-blue);
+}
+
+.header-link {
+	color: var(--second-text-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+	color: var(--my-blue);
+}
+
+/* [href="mailto:info@info@devstudio.com"],
+[href="tel:+380961111111"] {
+	color: var(--second-text-color);
+} */
+
+/* li:hover {
+	color: red;
+} */
+
+/* a:hover {
+	color: red;
+} */
+
+/* «C4» У интерактивных элементов (кнопок и ссылок), при наведении мышкой или фокусе с клавиатуры, есть активное состояние указанное в макете (изменение цвета). */
 
 /* «С5» Текст контактов в хедере и футере меняет цвет при ховере и фокусе. */
 /* .link:hover,
