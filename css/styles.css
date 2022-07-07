@@ -6,6 +6,12 @@ body {
 	--second-text-color: #757575;
 	--my-blue: #2196f3;
 }
+.logo {
+	/* position: absolute; */
+	color: var(--my-blue);
+	width: 145;
+	height: 31;
+}
 
 /* «С5» Текст контактов в хедере и футере меняет цвет при ховере и фокусе. */
 /* .link:hover,
