@@ -18,7 +18,7 @@ body {
 	--my-white: #ffffff;
 	--my-blue: #2196f3;
 	background-color: var(--my-white);
-	color: --first-text-color;
+	color: var(--first-text-color);
 }
 
 /* Header index.html */
