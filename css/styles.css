@@ -20,6 +20,10 @@ body {
 }
 
 /* Header */
+.header-bg {
+	background: #2f303a;
+}
+
 .logo {
 	font-family: "Raleway";
 	font-weight: 700;
