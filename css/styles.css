@@ -15,13 +15,14 @@ body {
 	font-style: normal;
 	--first-text-color: #212121;
 	--second-text-color: #757575;
+	--my-white: #ffffff;
 	--my-blue: #2196f3;
-	color: --first-text-color;
+	color: var(--first-text-color)
 }
 
 /* Header index.html */
 .header-bg {
-	background: #ffffff;
+	background: var(--my-white);
 }
 
 .logo {
@@ -39,7 +40,7 @@ body {
 }
 
 .logo-footer {
-	color: #ffffff;
+	color: var(--my-white);
 }
 
 .header-nav-link {
@@ -82,7 +83,7 @@ body {
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
-	color: #ffffff;
+	color:var(--my-white);
 }
 
 .main-btn {
@@ -93,7 +94,7 @@ body {
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;
-	color: #ffffff;
+	color: var(--my-white)
 	background: var(--my-blue);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
@@ -185,7 +186,7 @@ body {
 	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.03em;
-	color: #ffffff;
+	color: var(--my-white)
 }
 
 .footer-link {
@@ -231,7 +232,7 @@ body {
 	line-height: 26px;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: #ffffff;
+	color: var(--my-white)
 	background-color: var(--my-blue);
 	border: none;
 }
