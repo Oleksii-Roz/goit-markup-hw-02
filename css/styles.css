@@ -1,5 +1,6 @@
 body {
 	font-family: "Roboto";
+	font-style: normal;
 	color: #212121;
 	--first-text-color: #2f303a;
 	--second-text-color: #757575;
