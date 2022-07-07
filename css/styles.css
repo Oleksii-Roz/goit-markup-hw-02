@@ -1,7 +1,9 @@
 body {
 	font-family: "Roboto";
 	color: #212121;
-	--hf-color: #2f303a;
+	--first-text-color: #2f303a;
+	--second-text-color: #757575;
+	--my-blue: #2196f3;
 }
 
 /* «С5» Текст контактов в хедере и футере меняет цвет при ховере и фокусе. */
