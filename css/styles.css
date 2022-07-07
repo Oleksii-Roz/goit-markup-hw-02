@@ -1,6 +1,7 @@
 * {
 	list-style: none;
 	text-decoration: none;
+	font-style: normal;
 }
 
 /* :root {
@@ -18,6 +19,7 @@ body {
 	--my-blue: #2196f3;
 }
 
+/* Header */
 .logo {
 	font-family: "Raleway";
 	font-weight: 700;
@@ -62,18 +64,34 @@ body {
 	color: var(--my-blue);
 }
 
-/* [href="mailto:info@info@devstudio.com"],
-[href="tel:+380961111111"] {
-	color: var(--second-text-color);
+/* Footer  */
+/* .footer-address-link {
+	font-style: normal;
 } */
 
-/* li:hover {
-	color: red;
-} */
+.footer-link-address {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+}
 
-/* a:hover {
-	color: red;
-} */
+.footer-link {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	/* or 171% */
+	letter-spacing: 0.03em;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link-address:hover,
+.footer-link-address:focus,
+.footer-link:hover,
+.footer-link:focus {
+	color: var(--my-blue);
+}
 
 /* «C4» У интерактивных элементов (кнопок и ссылок), при наведении мышкой или фокусе с клавиатуры, есть активное состояние указанное в макете (изменение цвета). */
 
