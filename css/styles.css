@@ -51,7 +51,8 @@ body {
 }
 
 .header-nav-link:hover,
-.header-nav-link:focus {
+.header-nav-link:focus,
+.header-nav-link:active {
 	color: var(--my-blue);
 }
 
@@ -64,7 +65,8 @@ body {
 }
 
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.header-link:active {
 	color: var(--my-blue);
 }
 
@@ -94,7 +96,17 @@ body {
 	color: #ffffff;
 	background: var(--my-blue);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
 }
+
+.main-btn:hover,
+.main-btn:focus,
+.main-btn:active {
+	background: #188ce8;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+
 /* Наши основные особенности index.html */
 .main-basic {
 	opacity: 0;
@@ -185,8 +197,10 @@ body {
 
 .footer-link-address:hover,
 .footer-link-address:focus,
+.footer-link-address:active,
 .footer-link:hover,
-.footer-link:focus {
+.footer-link:focus,
+.footer-link:active {
 	color: var(--my-blue);
 }
 
