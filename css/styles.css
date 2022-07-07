@@ -68,6 +68,9 @@ body {
 /* .footer-address-link {
 	font-style: normal;
 } */
+.footer-bg {
+	background: #2f303a;
+}
 
 .footer-link-address {
 	font-weight: 400;
