@@ -57,6 +57,10 @@ body {
 	color: var(--my-blue);
 }
 
+.header-nav-link.current {
+	color: var(--my-blue);
+}
+
 .header-link {
 	font-weight: 500;
 	font-size: 14px;
