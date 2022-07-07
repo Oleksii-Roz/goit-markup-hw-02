@@ -17,6 +17,7 @@ body {
 	--second-text-color: #757575;
 	--my-white: #ffffff;
 	--my-blue: #2196f3;
+	background-color: var(--my-white);
 	color: --first-text-color;
 }
 
