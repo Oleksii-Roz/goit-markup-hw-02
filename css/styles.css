@@ -13,6 +13,14 @@ body {
 	height: 31;
 }
 
+.logo-header {
+	color: #000000;
+}
+
+.logo-footer {
+	color: #ffffff;
+}
+
 /* «С5» Текст контактов в хедере и футере меняет цвет при ховере и фокусе. */
 /* .link:hover,
 .link:focus {
