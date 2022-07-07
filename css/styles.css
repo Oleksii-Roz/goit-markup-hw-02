@@ -1,3 +1,8 @@
+* {
+	list-style: none;
+	text-decoration: none;
+}
+
 body {
 	font-family: "Roboto";
 	font-style: normal;
@@ -6,6 +11,7 @@ body {
 	--second-text-color: #757575;
 	--my-blue: #2196f3;
 }
+
 .logo {
 	/* position: absolute; */
 	color: var(--my-blue);
