@@ -1,24 +1,23 @@
 * {
-	list-style: none;
 	text-decoration: none;
 	font-style: normal;
 }
-
-/* :root {
-	--first-text-color: #2f303a;
-	--second-text-color: #757575;
-	--my-blue: #2196f3;
-} */
-
-body {
-	font-family: "Roboto";
-	font-style: normal;
+:root {
 	--first-text-color: #212121;
 	--second-text-color: #757575;
 	--my-white: #ffffff;
 	--my-blue: #2196f3;
+}
+
+body {
+	font-family: "Roboto";
+	font-style: normal;
 	background-color: var(--my-white);
 	color: var(--first-text-color);
+}
+
+.list {
+	list-style: none;
 }
 
 /* Header index.html */
