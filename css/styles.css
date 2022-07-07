@@ -97,6 +97,7 @@ body {
 	background: var(--my-blue);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+	border: none;
 }
 
 .main-btn:hover,
@@ -105,6 +106,7 @@ body {
 	background: #188ce8;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+	border: none;
 }
 
 /* Наши основные особенности index.html */
@@ -204,6 +206,55 @@ body {
 	color: var(--my-blue);
 }
 
+/* Main portfolio.html */
+.main-filters-text {
+	opacity: 0;
+}
+
+.main-filters-btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--first-text-color);
+	background: #f5f4fa;
+	border-radius: 4px;
+	border: none;
+}
+
+.main-filters-btn:hover,
+.main-filters-btn:focus,
+.main-filters-btn:active {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+	background-color: var(--my-blue);
+	border: none;
+}
+
+.main-all-services {
+	opacity: 0;
+}
+
+.main-all-services-test-first {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 36px;
+	letter-spacing: 0.06em;
+	color: var(--first-text-color);
+}
+
+.main-all-services-test-second {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.03em;
+	color: var(--second-text-color);
+}
 /* «C4» У интерактивных элементов (кнопок и ссылок), при наведении мышкой или фокусе с клавиатуры, есть активное состояние указанное в макете (изменение цвета). */
 
 /* «C6» Для хранения палитры цветов макета (текст, фон, выделение) используются CSS-переменные. */
