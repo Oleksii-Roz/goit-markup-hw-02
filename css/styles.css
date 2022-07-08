@@ -93,24 +93,24 @@ body {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 30px;
-	display: flex;
+	/* display: flex; */
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;
 	color: var(--my-white);
 	background: var(--my-blue);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	border-radius: 4px;
-	border: none;
+	/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+	/* border-radius: 4px; */
+	/* border: none; */
 }
 
 .main-btn:hover,
 .main-btn:focus,
 .main-btn:active {
 	background: #188ce8;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	border-radius: 4px;
-	border: none;
+	/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+	/* border-radius: 4px; */
+	/* border: none; */
 }
 
 /* Наши основные особенности index.html */
@@ -223,8 +223,8 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--first-text-color);
 	background: #f5f4fa;
-	border-radius: 4px;
-	border: none;
+	/* border-radius: 4px; */
+	/* border: none; */
 }
 
 .main-filters-btn:hover,
@@ -237,7 +237,7 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--my-white);
 	background-color: var(--my-blue);
-	border: none;
+	/* border: none; */
 }
 
 .main-all-services {
