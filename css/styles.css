@@ -124,7 +124,6 @@ body {
 }
 
 .main-basic-second {
-	font-weight: 400;
 	line-height: 24px;
 	color: var(--second-text-color);
 }
@@ -158,7 +157,6 @@ body {
 }
 
 .main-team-second {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 19px;
 	text-align: center;
@@ -173,14 +171,12 @@ body {
 
 .footer-link-address {
 	font-style: normal;
-	font-weight: 400;
 	line-height: 24px;
 	color: var(--my-white);
 }
 
 .footer-link {
 	font-style: normal;
-	font-weight: 400;
 	line-height: 24px;
 	/* or 171% */
 	color: rgba(255, 255, 255, 0.6);
@@ -236,7 +232,6 @@ body {
 }
 
 .main-all-services-test-second {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 30px;
 	color: var(--second-text-color);
@@ -258,5 +253,8 @@ body {
 display:
 box-shadow: 
 border-radius:
-border: 
-opacity: */
+border: */
+
+/* opacity: 0; - с значением 0 для скрытия отображения текста (h1.....h6, p) на странице, читалки при этом его видят и читают */
+
+/* line-height: 26px; - так не правильно нужно только в множителе давать значения */
