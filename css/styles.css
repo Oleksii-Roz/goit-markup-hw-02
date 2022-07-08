@@ -10,7 +10,7 @@
 }
 
 body {
-	font-family: "Roboto";
+	font-family: Roboto;
 	font-style: normal;
 	background-color: var(--my-white);
 	color: var(--first-text-color);
