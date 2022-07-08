@@ -27,7 +27,7 @@ body {
 }
 
 .logo {
-	font-family: "Raleway";
+	font-family: Raleway;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
@@ -88,7 +88,7 @@ body {
 }
 
 .main-btn {
-	font-family: Roboto;
+	font-family: RRoboto, sans-serif;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
@@ -199,7 +199,7 @@ body {
 } */
 
 .main-filters-btn {
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.63;
