@@ -253,7 +253,8 @@ body {
 display:
 box-shadow: 
 border-radius:
-border: */
+border: 
+opacity: 0; */
 
 /* opacity: 0; - с значением 0 для скрытия отображения текста (h1.....h6, p) на странице, читалки при этом его видят и читают */
 
