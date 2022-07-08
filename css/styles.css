@@ -1,7 +1,3 @@
-* {
-	text-decoration: none;
-}
-
 :root {
 	--first-text-color: #212121;
 	--second-text-color: #757575;
@@ -19,6 +15,10 @@ body {
 
 .list {
 	list-style: none;
+}
+
+.link {
+	text-decoration: none;
 }
 
 /* Header index.html */
