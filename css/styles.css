@@ -114,9 +114,9 @@ body {
 }
 
 /* Наши основные особенности index.html */
-.main-basic {
+/* .main-basic {
 	opacity: 0;
-}
+} */
 
 .main-basic-first {
 	font-weight: 700;
@@ -211,9 +211,9 @@ body {
 }
 
 /* Main portfolio.html */
-.main-filters-text {
+/* .main-filters-text {
 	opacity: 0;
-}
+} */
 
 .main-filters-btn {
 	font-weight: 500;
@@ -240,9 +240,9 @@ body {
 	/* border: none; */
 }
 
-.main-all-services {
+/* .main-all-services {
 	opacity: 0;
-}
+} */
 
 .main-all-services-test-first {
 	font-weight: 700;
@@ -276,4 +276,5 @@ body {
 display:
 box-shadow: 
 border-radius:
-border: */
+border: 
+opacity: */
