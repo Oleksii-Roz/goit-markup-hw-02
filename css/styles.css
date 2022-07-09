@@ -6,14 +6,6 @@
 	--background-dark-color: #2f303a;
 }
 
-.list {
-	list-style: none;
-}
-
-.link {
-	text-decoration: none;
-}
-
 body {
 	font-family: Roboto, sans-serif;
 	font-size: 14px;
@@ -39,6 +31,22 @@ body {
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
 	overflow: hidden;
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.67;
+	text-align: center;
+	color: var(--first-text-color);
 }
 
 /* ==========Header шапка сайта (WebStudio, Студия, Портфолио, Контакты, email, tel) index.html========== */
@@ -149,25 +157,9 @@ body {
 }
 
 /* ==========Чем мы занимаемся index.html========== */
-.main-doing {
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.67;
-	text-align: center;
-	color: var(--first-text-color);
-}
-
-/* ==========Наша команд========== */
+/* ==========Наша команд index.html========== */
 .main-team-bg {
 	background: #f5f4fa;
-}
-
-.main-team {
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.67;
-	text-align: center;
-	color: var(--first-text-color);
 }
 
 .main-team-first {
