@@ -3,6 +3,7 @@
 	--second-text-color: #757575;
 	--my-white: #ffffff;
 	--accent-color: #2196f3;
+	--background-dark-color: #2f303a;
 }
 
 .list {
@@ -19,6 +20,21 @@ body {
 	letter-spacing: 0.03em;
 	background-color: var(--my-white);
 	color: var(--first-text-color);
+}
+
+/* ==========COMPONENTS========== */
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 /* ==========Header index.html========== */
@@ -74,7 +90,7 @@ body {
 
 /* ==========Main index.html========== */
 .hero {
-	background-color: #2f303a;
+	background-color: var(--background-dark-color);
 }
 
 .hero-text {
@@ -120,6 +136,7 @@ body {
 
 .main-basic-first {
 	font-weight: 700;
+	font-size: 14px;
 	line-height: 1.14;
 	text-transform: uppercase;
 	color: var(--first-text-color);
@@ -168,7 +185,7 @@ body {
 /* ==========Footer index.html==========  */
 
 .footer-bg {
-	background: #2f303a;
+	background: var(--background-dark-color);
 }
 
 .footer-link-address {
@@ -206,18 +223,15 @@ body {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--first-text-color);
+	background: #f5f4fa;
 	cursor: pointer;
-	/* border-radius: 4px; */
-	/* border: none; */
+	/* border-radius: 4px;
+	border: none; */
 }
 
 .main-filters-btn:hover,
 .main-filters-btn:focus,
 .main-filters-btn:active {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.63;
-	text-align: center;
 	color: var(--my-white);
 	background-color: var(--accent-color);
 	/* border: none; */
