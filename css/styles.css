@@ -139,10 +139,6 @@ body {
 }
 
 /* ==========Наши основные особенности index.html========== */
-/* .main-basic {
-	opacity: 0;
-} */
-
 .main-basic-first {
 	font-weight: 700;
 	font-size: 14px;
@@ -207,10 +203,6 @@ body {
 
 /* ==========Main portfolio.html========== */
 /* ==========Фильтры на странице========== */
-/* .main-filters-text {
-	opacity: 0;
-} */
-
 .main-filters-btn {
 	font-family: Roboto, sans-serif;
 	font-weight: 500;
@@ -252,7 +244,7 @@ display:
 box-shadow: 
 border-radius:
 border: 
-opacity: 0; */
+opacity: 0;  - вообще убрал его использование, заменил на селектор .visually-hidden */
 /* opacity: 0; - с значением 0 для скрытия отображения текста (h1.....h6, p) на странице, читалки при этом его видят и читают */
 
 /* line-height: 26px; - так не правильно нужно только в множителе давать значения. 
