@@ -37,7 +37,7 @@ body {
 	overflow: hidden;
 }
 
-/* ==========Header index.html========== */
+/* ==========Header шапка сайта (WebStudio, Студия, Портфолио, Контакты, email, tel) index.html========== */
 .header-bg {
 	background: var(--my-white);
 }
@@ -89,6 +89,7 @@ body {
 }
 
 /* ==========Main index.html========== */
+/* ==========Hero. Баннер, кнопка index.html========== */
 .hero {
 	background-color: var(--background-dark-color);
 }
@@ -129,7 +130,7 @@ body {
 	/* border: none; */
 }
 
-/* Наши основные особенности index.html */
+/* ==========Наши основные особенности index.html========== */
 /* .main-basic {
 	opacity: 0;
 } */
@@ -147,6 +148,7 @@ body {
 	color: var(--second-text-color);
 }
 
+/* ==========Чем мы занимаемся index.html========== */
 .main-doing {
 	font-weight: 700;
 	font-size: 36px;
@@ -155,6 +157,7 @@ body {
 	color: var(--first-text-color);
 }
 
+/* ==========Наша команд========== */
 .main-team-bg {
 	background: #f5f4fa;
 }
@@ -182,7 +185,7 @@ body {
 	color: var(--second-text-color);
 }
 
-/* ==========Footer index.html==========  */
+/* ==========Footer Подвал (адрес, почта, телефон) index.html==========  */
 
 .footer-bg {
 	background: var(--background-dark-color);
@@ -211,6 +214,7 @@ body {
 }
 
 /* ==========Main portfolio.html========== */
+/* ==========Фильтры на странице========== */
 /* .main-filters-text {
 	opacity: 0;
 } */
