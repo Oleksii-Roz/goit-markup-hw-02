@@ -4,6 +4,8 @@
 	--my-white: #ffffff;
 	--accent-color: #2196f3;
 	--background-dark-color: #2f303a;
+	--main-bg: #f5f4fa;
+	--logo-second-part: #000000;
 }
 
 body {
@@ -63,7 +65,7 @@ body {
 }
 
 .logo-header {
-	color: #000000;
+	color: var(--logo-second-part);
 }
 
 .logo-footer {
@@ -155,7 +157,7 @@ body {
 /* ==========Чем мы занимаемся index.html========== */
 /* ==========Наша команд index.html========== */
 .main-team-bg {
-	background: #f5f4fa;
+	background: var(--main-bg);
 }
 
 .main-team-first {
@@ -211,7 +213,7 @@ body {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--first-text-color);
-	background: #f5f4fa;
+	background: var(--main-bg);
 	cursor: pointer;
 	/* border-radius: 4px;
 	border: none; */
