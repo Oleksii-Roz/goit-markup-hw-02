@@ -113,7 +113,7 @@ body {
 }
 
 .hero-btn {
-	font-family: Roboto, sans-serif;
+	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
@@ -204,7 +204,7 @@ body {
 /* ==========Main portfolio.html========== */
 /* ==========Фильтры на странице========== */
 .main-filters-btn {
-	font-family: Roboto, sans-serif;
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.63;
