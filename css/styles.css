@@ -8,6 +8,27 @@
 	--logo-second-part: #000000;
 }
 
+/*Убираем внешние и внутренние отступы*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+	margin: 0;
+	padding: 0;
+}
+/*Убираем нижний отступ*/
+img {
+	display: block;
+}
+
+button {
+	cursor: pointer;
+}
+
 body {
 	font-family: Roboto, sans-serif;
 	font-size: 14px;
@@ -31,7 +52,7 @@ body {
 
 	white-space: nowrap;
 	clip-path: inset(100%);
-	clip: rect(0 0 0 0);
+	clip: rect(0, 0, 0, 0);
 	overflow: hidden;
 }
 
@@ -51,9 +72,42 @@ body {
 	color: var(--first-text-color);
 }
 
+/* <div class="container"></div>  центрируем контейнер слева и права по отношению к размеру экрана */
+.container {
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+.main-container {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+/* ==========flex========== */
+/* добавил.flex в такие строки: 
+- строка 53 - <ul class= "list marging-bottom flex" > .flex { 
+- строка 72 - <ul class="list flex">	
+	*/
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 /* ==========Header шапка сайта (WebStudio, Студия, Портфолио, Контакты, email, tel) index.html========== */
 .header-bg {
 	background: var(--my-white);
+	border-bottom: 1px solid #ececec;
+}
+
+.section.header-bg {
+	padding-top: 24px;
+	padding-bottom: 25px;
 }
 
 .logo {
@@ -98,10 +152,22 @@ body {
 	color: var(--accent-color);
 }
 
+/* .ramka-first {
+	border-bottom: 1px solid #ececec;
+} */
+/* .ramka-second {
+	border-bottom: 1px solid #ececec;
+} */
+
 /* ==========Main index.html========== */
 /* ==========Hero. Баннер, кнопка index.html========== */
 .hero {
 	background-color: var(--background-dark-color);
+}
+
+.section.hero {
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 .hero-text {
@@ -112,6 +178,10 @@ body {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--my-white);
+
+	width: 696px;
+	margin: 0 auto;
+	margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -119,25 +189,30 @@ body {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
-	/* display: flex; */
-	align-items: center;
-	text-align: center;
 	letter-spacing: 0.06em;
+
 	color: var(--my-white);
 	background: var(--accent-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+	display: flex;
+	margin: 0 auto;
+
+	align-items: center;
+	text-align: center;
+
+	padding: 10px 32px;
+	border-radius: 4px;
+	border: none;
+	min-width: 73px;
+
 	cursor: pointer;
-	/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
-	/* border-radius: 4px; */
-	/* border: none; */
 }
 
 .hero-btn:hover,
 .hero-btn:focus,
 .hero-btn:active {
 	background: #188ce8;
-	/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
-	/* border-radius: 4px; */
-	/* border: none; */
 }
 
 /* ==========Наши основные особенности index.html========== */
@@ -154,10 +229,36 @@ body {
 	color: var(--second-text-color);
 }
 
+.main-basic-first.marging-bottom {
+	margin-bottom: 10px;
+}
+
 /* ==========Чем мы занимаемся index.html========== */
+.list.marging-bottom {
+	margin-bottom: 50px;
+}
 /* ==========Наша команд index.html========== */
 .main-team-bg {
 	background: var(--main-bg);
+}
+
+.title.marging-bottom {
+	margin-bottom: 50px;
+}
+
+.main-team-item {
+	background: var(--my-white);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+	padding-bottom: 30px;
+}
+
+.main-team-item:nth-child(n + 1) .menu-link {
+	margin-bottom: 30px;
+}
+
+.main-team-first.marging-bottom {
+	margin-bottom: 10px;
 }
 
 .main-team-first {
@@ -179,6 +280,11 @@ body {
 
 .footer-bg {
 	background: var(--background-dark-color);
+}
+
+.section.footer-bg {
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .footer-link-address {
@@ -203,8 +309,18 @@ body {
 	color: var(--accent-color);
 }
 
+.logo-footer-link {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.logo-item:nth-child(-n + 2) .footer-margin-link {
+	display: flex;
+	margin-bottom: 9px;
+}
+
 /* ==========Main portfolio.html========== */
-/* ==========Фильтры на странице========== */
+/* ==========Фильтры на странице portfolio.html========== */
 .main-filters-btn {
 	font-family: inherit;
 	font-weight: 500;
@@ -215,8 +331,12 @@ body {
 	color: var(--first-text-color);
 	background: var(--main-bg);
 	cursor: pointer;
-	/* border-radius: 4px;
-	border: none; */
+
+	text-align: center;
+	padding: 6px 22px;
+	border-radius: 4px;
+	border: none;
+	min-width: 73px;
 }
 
 .main-filters-btn:hover,
@@ -224,7 +344,6 @@ body {
 .main-filters-btn:active {
 	color: var(--my-white);
 	background-color: var(--accent-color);
-	/* border: none; */
 }
 
 .main-all-services-text-first {
@@ -235,19 +354,34 @@ body {
 	color: var(--first-text-color);
 }
 
+.main-all-services-text-first.marging-bottom {
+	margin-bottom: 4px;
+}
+
 .main-all-services-text-second {
 	font-size: 16px;
 	line-height: 1.88;
 	color: var(--second-text-color);
 }
 
-/* В ДЗ№2 не должны быть (скрыл их значение):
-display:
-box-shadow: 
-border-radius:
-border: 
-opacity: 0;  - вообще убрал его использование, заменил на селектор .visually-hidden */
-/* opacity: 0; - с значением 0 для скрытия отображения текста (h1.....h6, p) на странице, читалки при этом его видят и читают */
+.main-item-all-services-border {
+	background: var(--my-white);
+	border: 1px solid #eeeeee;
+	padding: 20px 24px;
+	margin-bottom: 30px;
+}
+
+/* .main-item-all-services:nth-child(n + 1) .menu-link {
+	margin-bottom: 20px;
+} */
+
+/* .main-all-services-text-second.margin-bottom {
+	margin-bottom: 20px;
+} */
+
+/* .main-item-all-services:nth-child(n + 7) .main-all-services-text-second {
+	margin-bottom: 0px;
+} */
 
 /* line-height: 26px; - так не правильно нужно только в множителе давать значения. 
 Например, если в макете размер шрифта 16px а интерлиньяж 24px, просто делим 24 на 16 и получаем множитель 1.5. Использование множителя гарантирует равномерное масштабирование межстрочного интервала при изменении размера текста.
@@ -255,3 +389,11 @@ opacity: 0;  - вообще убрал его использование, зам
   font-size: 16px;
   line-height: 1.5;
 } */
+
+/* flex-wrap
+По умолчанию все элементы flex будут пытаться поместиться на одной линии. Это можно изменить и разрешить перенос элементов по мере необходимости с помощью этого свойства.
+
+flex-wrap: nowrap | wrap | wrap-reverse;
+nowrap (по умолчанию): все элементы flex будут находиться на одной строке.
+wrap: гибкие элементы будут переноситься на несколько линий, сверху вниз.
+wrap-reverse: гибкие элементы будут переноситься на несколько линий снизу вверх. */
